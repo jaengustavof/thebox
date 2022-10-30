@@ -1,9 +1,14 @@
 import React from 'react';
 import Header from '../componets/header/Header';
+import Banner from '../componets/banner/Banner';
 
 const Index = () => {
   return (
-    <Header />
+    <section>
+        <Header />
+        <Banner />
+    </section>
+
   )
 }
 
