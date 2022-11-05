@@ -1,0 +1,35 @@
+.project-section {
+    width: 100%;
+    height: 1098px;
+    .project-container {
+        width: 100%;
+        max-width: 1200px;
+        height: 100%;
+        margin: auto;
+        background-color: red;
+        display: flex;
+        .project-menu {
+            width: 30%;
+            height: 100%;
+            background-color: green;
+            h3 {
+                font-size: 36px;
+                font-weight: bold;
+                color: #292E3D;
+            }
+            .menu-list {
+                li {
+                    font-size: 24px;
+                    color: #C2C7D6;
+                    border-left: 5px solid blue;
+                    padding-left: 10px;
+                }
+            }
+        }
+        .project-carrusel {
+            width: 70%;
+            height: 100%;
+            background-color: blue;
+        }
+    }
+}
