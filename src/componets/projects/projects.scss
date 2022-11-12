@@ -1,35 +1,160 @@
-.project-section {
+.projects-section{
     width: 100%;
     height: 1098px;
-    .project-container {
+   
+    .projects-container{
         width: 100%;
         max-width: 1200px;
         height: 100%;
         margin: auto;
-        background-color: red;
         display: flex;
-        .project-menu {
+        .projects-menu{
+            
             width: 30%;
             height: 100%;
-            background-color: green;
-            h3 {
+
+            h3{
                 font-size: 36px;
                 font-weight: bold;
                 color: #292E3D;
+                margin-top: 88px;
+                margin-left: 112px;
+                margin-bottom: 40px;
             }
-            .menu-list {
-                li {
+            .list{
+                li{
                     font-size: 24px;
                     color: #C2C7D6;
+                    margin-left: 112px;
+                    border-left: 5px solid transparent;
+                    padding-left: 5px;
+                    transition: 0.2s;
+                    cursor: pointer;
+                    &:hover{
+                        border-left: 5px solid blue;
+                        padding-left: 5px;
+                        color:#2947A9;
+                        font-size: 24px;
+                        font-weight: bold;
+                        transition: 0.2s;
+                    }
+                    
+                }
+                .li-selected {
                     border-left: 5px solid blue;
-                    padding-left: 10px;
+                    padding-left: 5px;
+                    color:#2947A9;
+                    font-size: 24px;
+                    font-weight: bold;
+                    transition: 0.2s;
                 }
             }
         }
-        .project-carrusel {
+        .projects-carrusel{
+            margin-top: 170px;
+            background: white;
             width: 70%;
-            height: 100%;
-            background-color: blue;
+            height: 790px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+            .divs{
+                width: 384px;
+                height: 331px;
+                margin: auto;
+            
+                .img{
+                    height: 247px;
+                   
+                }
+                .div-info{
+                    width: 100%;
+                    height: 84px;
+                    background: #2947A9;
+                    padding: 12px;
+                    margin-top: -4px;
+                    h4{
+                        width: 213px;
+                        font-size: 20px;
+                        font-weight: bold;
+                        color: #ffffff;
+                        margin-bottom: 12px;
+                    }
+                    p{
+                        font-size: 18px;
+                        color: #ffffff;
+                        width: 322px;
+                    }
+                    
+                }
+            }
+
+            .buttons{
+                width: 100%;
+                height: 64px;
+                display: flex;
+                margin: auto;
+                .back{
+                    width: 295px;
+                    height: 100%;
+                    background: #292E3D;
+                    
+                    margin-left: 20px;
+                    color: #ffffff;
+                    font-size: 18px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img{
+                        margin: 0 5px;
+                     }
+                }
+                .next{
+                    width: 295px;
+                    height: 100%;
+                    
+                    background: #292E3D;  
+                    color: #ffffff; 
+                    font-size: 18px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img{
+                        margin: 0 5px;
+                     } 
+                }
+                .marcador{
+                    width: 210px;
+                    height: 100%;
+                    margin: 4px;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    
+                    .radios{
+                        width: 144px;
+                        height: 16px;
+                        margin-left: 30px;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    .radios-all{
+                        width: 16px;
+                        height: 16px;
+                        border-radius: 50%;
+                        border: 1px solid black;
+                        background: #F6F8F7;
+                    }
+                    .radio1{
+                        width: 16px;
+                        height: 16px;
+                        border-radius: 50%;
+                        background: #2947A9;
+                    }
+                }
+            }
         }
     }
 }

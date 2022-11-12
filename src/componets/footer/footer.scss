@@ -1,0 +1,135 @@
+.footer{
+    width: 100%;
+    height: 377px;
+    
+    .footer-container{
+        width: 100%;
+        max-width: 1200px;
+        height: 100%;
+        margin: auto;
+        .footer-date{
+            display: flex;
+            justify-content: space-between;
+            .date-contact{
+                width: 70%;
+            
+                .address{
+                    display: flex;
+                    h3{
+                        width: 91px;
+                        font-size: 20px;
+                        color: #2947A9;
+                        margin-left: 20px;
+                        margin-top: 85px;
+                    }
+                    p{
+                        margin-top: 85px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-left: 13px;
+                    }
+                }
+                .phone{
+                    display: flex;
+                    h3{
+                        width: 91px;
+                        font-size: 20px;
+                        color: #2947A9;
+                        margin-top: 32px;
+                        margin-bottom: 32px;
+                        margin-left: 20px;
+                    }
+                    p{
+                        margin-top: 32px;
+                        margin-bottom: 32px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-left: 13px;
+                    }
+                }
+                .email{
+                    display: flex;
+                    h3{
+                        width: 91px;
+                        color: #2947A9;
+                        margin-left: 20px;
+                        font-size: 20px;
+                    }
+                    p{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-left: 13px;
+                    }
+                }
+                img{
+                    width: 163px;
+                    height: 47.5px;
+                    margin-left: 20px;
+                    margin-top: 32px;
+                    margin-bottom: 77.5px;
+                }
+            }
+            .date-social{
+                width: 30%;
+                h3{
+                    color: #2947A9;
+                    margin-top: 85px;
+                    font-size: 20px;
+                    margin-bottom: 20px;
+                }
+                .subscribe{
+                    display: flex;
+                    input{
+                        width: 280px;
+                        height: 41px;
+                    }
+                    .subscribe-div{
+                        width: 136px;
+                        height: 41px;
+                        background: #F9995D;
+                        color: white;
+                        margin-left: 8px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                    }
+                }
+                h4{
+                    color: #2947A9;
+                    font-size: 20px;
+                    margin-top: 42px;
+                    margin-bottom: 20px;
+                }
+                img{
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 20px;
+                }
+            }
+        }
+        
+    }
+    .copy{
+        width: 100%;
+        height: 70px;
+        background: #2947A9;
+        font-size: 16px;
+        color: white;
+
+        .copy-container {
+            width: 100%;
+            max-width: 1200px;
+            height: 100%;
+            margin: auto;
+            display: flex;
+            justify-content: flex-start;
+            padding-left: 20px;
+            align-items: center;
+
+        }
+    }
+}

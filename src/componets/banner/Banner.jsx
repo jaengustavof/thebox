@@ -3,6 +3,7 @@ import './banner.scss';
 import left from '../../assets/img/left.png';
 import right from '../../assets/img/right.png';
 
+
 const Banner = () => {
   return (
     <div className='hero'>
@@ -23,7 +24,11 @@ const Banner = () => {
                 </div>
             </div>
         </div>
+
+        
     </div>
+
+
   )
 }
 

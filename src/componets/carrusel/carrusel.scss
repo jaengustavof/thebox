@@ -1,0 +1,23 @@
+.hero-carrusel {
+    width: 100%;
+    height: calc(100vh - 80px);
+    position: relative;
+    .hero-carrusel-item {
+        height: 100%;
+        
+        .hero-carrusel-img {
+            height: 100%;
+            object-fit: cover;
+        }
+        .hero-carrusel-caption {
+            width: 415px;
+            height: 190px;
+            background-color: #3559C7;
+            position: absolute;
+            bottom: 0;
+            transform: translate(-100%, 0px);
+            left: 100%;
+        }
+    }
+
+}
